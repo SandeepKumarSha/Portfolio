@@ -910,6 +910,9 @@ body::before {
   flex-grow: 1;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.04);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .browser-body {
