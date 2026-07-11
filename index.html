@@ -86,6 +86,21 @@
               <i class="fa-solid fa-file-lines"></i> Resume
             </a>
           </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="stat-number">9</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Hackathons & Contests</span>
+            </div>
+          </div>
         </div>
         <div class="hero-image">
           <div class="hero-image-wrapper">
@@ -273,58 +288,46 @@
   </section>
 
   <!-- ========== EDUCATION SECTION ========== -->
-  <section class="timeline-section" id="education">
+  <section class="education-section" id="education">
     <div class="container">
       <p class="section-label reveal">Academics</p>
       <h2 class="section-title reveal">Education</h2>
       <p class="section-subtitle reveal">My academic foundation and learning milestones.</p>
 
-      <div class="timeline">
+      <div class="education-grid">
         <!-- B.Tech -->
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-badge badge-edu"><i class="fa-solid fa-graduation-cap"></i> Education</span>
-            <p class="timeline-date">2023 – 2027</p>
-            <h3 class="timeline-title">B.Tech in Information Technology</h3>
-            <p class="timeline-org">MCKV Institute of Engineering, Howrah</p>
-            <div class="timeline-body">
-              <ul>
-                <li>CGPA: 9.63</li>
-              </ul>
-            </div>
+        <div class="education-card reveal">
+          <div class="education-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <span class="education-duration"><i class="fa-regular fa-calendar"></i> 2023 – 2027</span>
+          <h3 class="education-card-title">B.Tech in Information Technology</h3>
+          <p class="education-org">MCKV Institute of Engineering, Howrah</p>
+          <div class="education-score-badge">
+            <span class="score-label">CGPA</span>
+            <span class="score-value">9.63</span>
           </div>
         </div>
 
         <!-- Class XII -->
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-badge badge-edu"><i class="fa-solid fa-graduation-cap"></i> Education</span>
-            <p class="timeline-date">2021 – 2022</p>
-            <h3 class="timeline-title">CBSE — Class XII</h3>
-            <p class="timeline-org">S H M D School, Jaigaon</p>
-            <div class="timeline-body">
-              <ul>
-                <li>Aggregate: 81.4%</li>
-              </ul>
-            </div>
+        <div class="education-card reveal">
+          <div class="education-card-icon"><i class="fa-solid fa-school"></i></div>
+          <span class="education-duration"><i class="fa-regular fa-calendar"></i> 2021 – 2022</span>
+          <h3 class="education-card-title">CBSE — Class XII</h3>
+          <p class="education-org">S H M D School, Jaigaon</p>
+          <div class="education-score-badge">
+            <span class="score-label">Aggregate</span>
+            <span class="score-value">81.4%</span>
           </div>
         </div>
 
         <!-- Class X -->
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-badge badge-edu"><i class="fa-solid fa-graduation-cap"></i> Education</span>
-            <p class="timeline-date">2019 – 2020</p>
-            <h3 class="timeline-title">CBSE — Class X</h3>
-            <p class="timeline-org">Vikas The Concept School, Hyderabad</p>
-            <div class="timeline-body">
-              <ul>
-                <li>Aggregate: 91.4%</li>
-              </ul>
-            </div>
+        <div class="education-card reveal">
+          <div class="education-card-icon"><i class="fa-solid fa-book-open"></i></div>
+          <span class="education-duration"><i class="fa-regular fa-calendar"></i> 2019 – 2020</span>
+          <h3 class="education-card-title">CBSE — Class X</h3>
+          <p class="education-org">Vikas The Concept School, Hyderabad</p>
+          <div class="education-score-badge">
+            <span class="score-label">Aggregate</span>
+            <span class="score-value">91.4%</span>
           </div>
         </div>
       </div>
@@ -332,129 +335,232 @@
   </section>
 
   <!-- ========== PROJECTS SECTION ========== -->
-  <section class="projects" id="projects">
+  <section class="projects-section" id="projects">
     <div class="container">
       <p class="section-label reveal">Portfolio</p>
       <h2 class="section-title reveal">Featured Projects</h2>
       <p class="section-subtitle reveal">Real-world ML applications deployed and production-ready.</p>
 
-      <div class="projects-grid">
+      <div class="projects-grid-new">
 
         <!-- Project 1: Email Spam Classifier -->
-        <div class="project-card reveal reveal-delay-1">
-          <div class="project-header">
-            <div class="project-icon"><i class="fa-solid fa-shield-halved"></i></div>
-            <div class="project-links">
-              <a href="https://github.com/SandeepKumarSha" target="_blank" rel="noopener noreferrer" title="GitHub"><i
-                  class="fa-brands fa-github"></i></a>
-              <a href="#" target="_blank" rel="noopener noreferrer" title="Live Demo"><i
-                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <div class="project-card-new reveal">
+          <div class="project-preview-top">
+            <div class="browser-mockup">
+              <div class="browser-header">
+                <div class="browser-dots">
+                  <span class="browser-dot red"></span>
+                  <span class="browser-dot yellow"></span>
+                  <span class="browser-dot green"></span>
+                </div>
+                <div class="browser-address">https://email-spam-classifier-gold.vercel.app</div>
+              </div>
+              <div class="browser-body">
+                <img src="Spam_Classifier.png" alt="Email Spam Classifier Homepage Preview">
+              </div>
             </div>
           </div>
-          <h3 class="project-title">Email Spam Classifier</h3>
-          <p class="project-description">
-            An NLP-powered web application that classifies emails or messages as Spam or Not Spam (Ham) using Machine
-            Learning and Natural Language Processing techniques. Built a production-ready NLP pipeline leveraging TF-IDF
-            feature engineering and Flask-based model serving.
-          </p>
-          <div class="project-stat">
-            <i class="fa-solid fa-bullseye"></i> 97.09% Accuracy · 100% Precision
-          </div>
-          <div class="project-tech">
-            <span>Python</span>
-            <span>Scikit-learn</span>
-            <span>NLP</span>
-            <span>TF-IDF</span>
-            <span>Flask</span>
-            <span>Vercel</span>
+          
+          <div class="project-info-body">
+            <h3 class="project-title">Email Spam Classifier</h3>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Scikit-learn</span>
+              <span>NLP</span>
+              <span>Flask</span>
+              <span>Vercel</span>
+            </div>
+            
+            <div class="project-details">
+              <div class="detail-group">
+                <h4 class="detail-label"><i class="fa-solid fa-circle-exclamation"></i> Problem</h4>
+                <p class="detail-text">Unsolicited spam emails overwhelm inbox users, causing security vulnerabilities and decreasing communication efficiency.</p>
+              </div>
+              <div class="detail-group">
+                <h4 class="detail-label"><i class="fa-solid fa-gears"></i> Proposed Solution</h4>
+                <p class="detail-text">Engineered an NLP pipeline utilizing TF-IDF feature engineering and an optimized Multinomial Naive Bayes classifier served via Flask.</p>
+              </div>
+              <div class="detail-group">
+                <h4 class="detail-label"><i class="fa-solid fa-square-poll-vertical"></i> Result (Achieved)</h4>
+                <p class="detail-text">Achieved <strong class="highlight-green">97.09% Accuracy</strong> with an exceptional <strong class="highlight-green">100% Precision score</strong>, preventing false positives.</p>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com/SandeepKumarSha/Email-Spam-Classifier" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" title="GitHub Repository">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://email-spam-classifier-gold.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" title="Live Demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
         <!-- Project 2: Iris Flower Classification -->
-        <div class="project-card reveal reveal-delay-2">
-          <div class="project-header">
-            <div class="project-icon"><i class="fa-solid fa-seedling"></i></div>
-            <div class="project-links">
-              <a href="https://github.com/SandeepKumarSha" target="_blank" rel="noopener noreferrer" title="GitHub"><i
-                  class="fa-brands fa-github"></i></a>
-              <a href="#" target="_blank" rel="noopener noreferrer" title="Live Demo"><i
-                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <div class="project-card-new reveal">
+          <div class="project-preview-top">
+            <div class="browser-mockup">
+              <div class="browser-header">
+                <div class="browser-dots">
+                  <span class="browser-dot red"></span>
+                  <span class="browser-dot yellow"></span>
+                  <span class="browser-dot green"></span>
+                </div>
+                <div class="browser-address">https://iris-flower-classification-theta.vercel.app</div>
+              </div>
+              <div class="browser-body">
+                <img src="Iris_Flower_Classifier.png" alt="Iris Flower Classification Homepage Preview">
+              </div>
             </div>
           </div>
-          <h3 class="project-title">Iris Flower Classification</h3>
-          <p class="project-description">
-            A Machine Learning-powered web application that predicts Iris flower species based on sepal and petal
-            measurements. Compared Logistic Regression, KNN, and Decision Tree models before deploying the
-            highest-performing classifier.
-          </p>
-          <div class="project-stat">
-            <i class="fa-solid fa-bullseye"></i> 100% Classification Accuracy
-          </div>
-          <div class="project-tech">
-            <span>Python</span>
-            <span>Scikit-learn</span>
-            <span>Logistic Regression</span>
-            <span>Flask</span>
-            <span>Vercel</span>
+          
+          <div class="project-info-body">
+            <h3 class="project-title">Iris Flower Classifier</h3>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Scikit-learn</span>
+              <span>Flask</span>
+              <span>Vercel</span>
+            </div>
+            
+            <div class="project-details">
+              <div class="detail-group">
+                <h4 class="detail-label"><i class="fa-solid fa-circle-exclamation"></i> Problem</h4>
+                <p class="detail-text">Accurate classification of botanical species typically demands expert analysis, leading to a need for automated morphometric predictions.</p>
+              </div>
+              <div class="detail-group">
+                <h4 class="detail-label"><i class="fa-solid fa-gears"></i> Proposed Solution</h4>
+                <p class="detail-text">Developed an interactive flask dashboard evaluating Logistic Regression, KNN, and Decision Trees for specimen predictions.</p>
+              </div>
+              <div class="detail-group">
+                <h4 class="detail-label"><i class="fa-solid fa-square-poll-vertical"></i> Result (Achieved)</h4>
+                <p class="detail-text">Achieved <strong class="highlight-green">100% Classification Accuracy</strong> during validation, offering instant, error-free classification.</p>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com/SandeepKumarSha/Iris-Flower-Classification" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" title="GitHub Repository">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://iris-flower-classification-theta.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" title="Live Demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
         <!-- Project 3: Car Price Predictor -->
-        <div class="project-card reveal reveal-delay-3">
-          <div class="project-header">
-            <div class="project-icon"><i class="fa-solid fa-car"></i></div>
-            <div class="project-links">
-              <a href="https://github.com/SandeepKumarSha" target="_blank" rel="noopener noreferrer" title="GitHub"><i
-                  class="fa-brands fa-github"></i></a>
-              <a href="#" target="_blank" rel="noopener noreferrer" title="Live Demo"><i
-                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <div class="project-card-new reveal">
+          <div class="project-preview-top">
+            <div class="browser-mockup">
+              <div class="browser-header">
+                <div class="browser-dots">
+                  <span class="browser-dot red"></span>
+                  <span class="browser-dot yellow"></span>
+                  <span class="browser-dot green"></span>
+                </div>
+                <div class="browser-address">https://car-price-predictor-always.onrender.com</div>
+              </div>
+              <div class="browser-body">
+                <img src="Car_Price_Predictor.png" alt="Car Price Predictor Homepage Preview">
+              </div>
             </div>
           </div>
-          <h3 class="project-title">Car Price Predictor</h3>
-          <p class="project-description">
-            Machine learning web app predicts used car resale prices based on company, model, year, fuel type, and
-            kilometers driven. Integrated a Scikit-learn regression pipeline with Flask for real-time resale price
-            estimation.
-          </p>
-          <div class="project-stat">
-            <i class="fa-solid fa-chart-line"></i> R² Score: 0.93
-          </div>
-          <div class="project-tech">
-            <span>Python</span>
-            <span>Scikit-learn</span>
-            <span>Pandas</span>
-            <span>Flask</span>
-            <span>Render</span>
+          
+          <div class="project-info-body">
+            <h3 class="project-title">Car Price Predictor</h3>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Scikit-learn</span>
+              <span>Pandas</span>
+              <span>Flask</span>
+              <span>Render</span>
+            </div>
+            
+            <div class="project-details">
+              <div class="detail-group">
+                <h4 class="detail-label"><i class="fa-solid fa-circle-exclamation"></i> Problem</h4>
+                <p class="detail-text">Estimating a fair market resale value of pre-owned vehicles is complex and prone to human negotiation and structural price biases.</p>
+              </div>
+              <div class="detail-group">
+                <h4 class="detail-label"><i class="fa-solid fa-gears"></i> Proposed Solution</h4>
+                <p class="detail-text">Constructed a robust regression pipeline mapping company, model, fuel type, and mileage inputs to historical sales datasets.</p>
+              </div>
+              <div class="detail-group">
+                <h4 class="detail-label"><i class="fa-solid fa-square-poll-vertical"></i> Result (Achieved)</h4>
+                <p class="detail-text">Secured a <strong class="highlight-green">R² score of 0.93</strong>, verifying high predictive capabilities and pricing precision in real-time.</p>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com/SandeepKumarSha/Car-Price-Predictor" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" title="GitHub Repository">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://car-price-predictor-always.onrender.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" title="Live Demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
   <!-- ========== EXPERIENCE SECTION ========== -->
-  <section class="timeline-section" id="experience">
+  <section class="experience-section" id="experience">
     <div class="container">
       <p class="section-label reveal">Career</p>
       <h2 class="section-title reveal">Experience</h2>
       <p class="section-subtitle reveal">Professional experience and internships.</p>
 
-      <div class="timeline">
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-badge badge-work"><i class="fa-solid fa-briefcase"></i> Experience</span>
-            <p class="timeline-date">May 2026 – Jul 2026</p>
-            <h3 class="timeline-title">AI/ML Intern (Virtual)</h3>
-            <p class="timeline-org">QSkill</p>
-            <div class="timeline-body">
-              <ul>
-                <li>Engineered end-to-end machine learning pipelines using Python, Scikit-learn, and Flask, enabling
-                  automated data preprocessing, feature engineering, model training, and real-time inference.</li>
-                <li>Delivered 97.09% spam detection accuracy (100% precision) and 100% Iris classification accuracy.
-                </li>
-                <li>Tech: Python | ML | Scikit-learn | Pandas | NumPy | NLTK | Flask | HTML | CSS | JS</li>
-              </ul>
+      <div class="experience-featured-card-new reveal">
+        <div class="experience-left-col">
+          <span class="experience-badge"><i class="fa-solid fa-briefcase"></i> Internship</span>
+          <h3 class="experience-title">AI/ML Intern</h3>
+          <p class="experience-org">QSkill &middot; Squarecell Resource India Pvt. Ltd. (Remote)</p>
+          <span class="experience-date"><i class="fa-regular fa-calendar-days"></i> May 2026 – Jul 2026</span>
+          
+          <div class="experience-credentials-cta">
+            <a href="https://drive.google.com/drive/u/0/folders/1C2GjBBy1MR8T9TFv_jqFRTGc_NwVreQx" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" title="View Internship Letter of Recommendation">
+              <i class="fa-solid fa-file-signature"></i> QSkill LOR
+            </a>
+            <a href="https://drive.google.com/drive/u/0/folders/1C2GjBBy1MR8T9TFv_jqFRTGc_NwVreQx" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" title="View Internship Completion Certificate">
+              <i class="fa-solid fa-certificate"></i> QSkill Certificate
+            </a>
+          </div>
+
+          <div class="experience-tech-compact">
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>Scikit-learn</span>
+              <span>Flask</span>
+              <span>NLTK</span>
+              <span>Pandas</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="experience-right-col">
+          <ul class="experience-bullets-compact">
+            <li>Engineered end-to-end ML pipelines using Python, Scikit-learn, and Flask, enabling automated data preprocessing, feature engineering, model training, and real-time inference.</li>
+            <li>Collaborated on building robust models and deploying them using server-side rendering pipelines.</li>
+          </ul>
+
+          <div class="experience-metrics-compact">
+            <div class="metric-item-compact">
+              <span class="metric-num">97.09%</span>
+              <span class="metric-desc">Spam detection accuracy (100% precision)</span>
+            </div>
+            <div class="metric-item-compact">
+              <span class="metric-num">100%</span>
+              <span class="metric-desc">Iris classification accuracy</span>
             </div>
           </div>
         </div>
@@ -463,48 +569,79 @@
   </section>
 
   <!-- ========== CERTIFICATIONS SECTION ========== -->
-  <section class="timeline-section" id="certifications">
+  <section class="certifications-section" id="certifications">
     <div class="container">
       <p class="section-label reveal">Credentials</p>
       <h2 class="section-title reveal">Certifications</h2>
       <p class="section-subtitle reveal">Professional certifications and achievements.</p>
 
-      <div class="timeline">
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-badge badge-cert"><i class="fa-solid fa-certificate"></i> 2026</span>
-            <h3 class="timeline-title">Artificial Intelligence & Machine Learning (20-hr)</h3>
-            <p class="timeline-org">Microsoft Learn × FICE — Microsoft</p>
+      <div class="certifications-grid">
+        <!-- Certificate 1: AIML Microsoft -->
+        <a href="https://drive.google.com/drive/u/0/folders/1C2GjBBy1MR8T9TFv_jqFRTGc_NwVreQx" target="_blank" rel="noopener noreferrer" class="cert-card reveal" title="View Certificate">
+          <div class="cert-header">
+            <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+            <span class="cert-date">2026</span>
           </div>
-        </div>
+          <h3 class="cert-title">Artificial Intelligence & Machine Learning (20-hr)</h3>
+          <p class="cert-org">Microsoft Learn &times; FICE — Microsoft</p>
+        </a>
 
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-badge badge-cert"><i class="fa-solid fa-certificate"></i> 2026</span>
-            <h3 class="timeline-title">AI Foundations</h3>
-            <p class="timeline-org">IBM SkillsBuild — IBM</p>
+        <!-- Certificate 2: IBM AI Foundation -->
+        <a href="https://drive.google.com/drive/u/0/folders/1C2GjBBy1MR8T9TFv_jqFRTGc_NwVreQx" target="_blank" rel="noopener noreferrer" class="cert-card reveal" title="View Certificate">
+          <div class="cert-header">
+            <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+            <span class="cert-date">2026</span>
           </div>
-        </div>
+          <h3 class="cert-title">AI Foundations</h3>
+          <p class="cert-org">IBM SkillsBuild — IBM</p>
+        </a>
 
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-badge badge-cert"><i class="fa-solid fa-certificate"></i> 2026</span>
-            <h3 class="timeline-title">21 Projects, 21 Days: ML, Deep Learning & GenAI</h3>
-            <p class="timeline-org">GeeksforGeeks</p>
+        <!-- Certificate 3: IBM Getting Started with AI -->
+        <a href="https://drive.google.com/drive/u/0/folders/1C2GjBBy1MR8T9TFv_jqFRTGc_NwVreQx" target="_blank" rel="noopener noreferrer" class="cert-card reveal" title="View Certificate">
+          <div class="cert-header">
+            <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+            <span class="cert-date">2026</span>
           </div>
-        </div>
+          <h3 class="cert-title">Getting Started with AI</h3>
+          <p class="cert-org">IBM SkillsBuild — IBM</p>
+        </a>
 
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-badge badge-cert"><i class="fa-solid fa-certificate"></i> 2024</span>
-            <h3 class="timeline-title">The Joy of Computing using Python (12-week, Elite)</h3>
-            <p class="timeline-org">NPTEL — IIT Madras</p>
+        <!-- Certificate 4: PowerBI Microsoft -->
+        <a href="https://drive.google.com/drive/u/0/folders/1C2GjBBy1MR8T9TFv_jqFRTGc_NwVreQx" target="_blank" rel="noopener noreferrer" class="cert-card reveal" title="View Certificate">
+          <div class="cert-header">
+            <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+            <span class="cert-date">2026</span>
           </div>
-        </div>
+          <h3 class="cert-title">Microsoft PowerBI</h3>
+          <p class="cert-org">Microsoft</p>
+        </a>
+
+        <!-- Certificate 5: GFG 21 Days -->
+        <a href="https://drive.google.com/drive/u/0/folders/1C2GjBBy1MR8T9TFv_jqFRTGc_NwVreQx" target="_blank" rel="noopener noreferrer" class="cert-card reveal" title="View Certificate">
+          <div class="cert-header">
+            <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+            <span class="cert-date">2026</span>
+          </div>
+          <h3 class="cert-title">21 Projects, 21 Days: ML, Deep Learning & GenAI</h3>
+          <p class="cert-org">GeeksforGeeks</p>
+        </a>
+
+        <!-- Certificate 6: NPTEL Python -->
+        <a href="https://drive.google.com/drive/u/0/folders/1C2GjBBy1MR8T9TFv_jqFRTGc_NwVreQx" target="_blank" rel="noopener noreferrer" class="cert-card reveal" title="View Certificate">
+          <div class="cert-header">
+            <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+            <span class="cert-date">2024</span>
+          </div>
+          <h3 class="cert-title">The Joy of Computing using Python (12-week, Elite)</h3>
+          <p class="cert-org">NPTEL — IIT Madras</p>
+        </a>
+      </div>
+
+      <!-- Certifications Drive Link CTA -->
+      <div class="certifications-cta reveal">
+        <a href="https://drive.google.com/drive/u/0/folders/1C2GjBBy1MR8T9TFv_jqFRTGc_NwVreQx" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lor">
+          <i class="fa-solid fa-folder-open"></i> View Internship LOR & Certificates Folder
+        </a>
       </div>
     </div>
   </section>
@@ -518,59 +655,79 @@
 
       <div class="contact-wrapper reveal">
         <!-- Contact Info -->
-        <div class="contact-info">
-          <h3>Connect With Me</h3>
-          <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of something
-            amazing.</p>
+        <div class="contact-info-panel">
+          <div class="contact-info-header">
+            <h3>Let's Connect</h3>
+            <p>I'm always open to discussing new projects, ML pipelines, or software engineering opportunities. Reach out via email, phone, or any of my social profiles.</p>
+          </div>
 
-          <div class="contact-links">
-            <a href="mailto:shasandeepkumar.333@gmail.com" class="contact-link">
-              <i class="fa-solid fa-envelope"></i>
-              <span>shasandeepkumar.333@gmail.com</span>
-            </a>
-            <a href="tel:+918016814050" class="contact-link">
-              <i class="fa-solid fa-phone"></i>
-              <span>+91-8016814050</span>
-            </a>
-            <a href="https://www.linkedin.com/in/sandeepkumarsha" target="_blank" rel="noopener noreferrer"
-              class="contact-link">
-              <i class="fa-brands fa-linkedin"></i>
-              <span>LinkedIn</span>
-            </a>
-            <a href="https://github.com/SandeepKumarSha" target="_blank" rel="noopener noreferrer" class="contact-link">
-              <i class="fa-brands fa-github"></i>
-              <span>GitHub</span>
-            </a>
-            <a href="#" class="contact-link">
-              <i class="fa-solid fa-location-dot"></i>
-              <span>Howrah, West Bengal, India</span>
-            </a>
+          <div class="contact-details-list">
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="detail-content">
+                <span class="detail-title">Email Me</span>
+                <a href="mailto:shasandeepkumar.333@gmail.com" class="detail-link">shasandeepkumar.333@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="detail-content">
+                <span class="detail-title">Call Me</span>
+                <a href="tel:+918016814050" class="detail-link">+91-8016814050</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="detail-content">
+                <span class="detail-title">Location</span>
+                <span class="detail-text">Howrah, West Bengal, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials-area">
+            <h4>Follow Me</h4>
+            <div class="socials-glow-row">
+              <a href="https://github.com/SandeepKumarSha" target="_blank" rel="noopener noreferrer" class="social-glow-btn" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/sandeepkumarsha" target="_blank" rel="noopener noreferrer" class="social-glow-btn" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://docs.google.com/document/d/1hgVnxGXKuRXNpZYAB12Lw-fMkucEcfDPybNBa76TTh8/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="social-glow-btn" title="Resume">
+                <i class="fa-solid fa-file-lines"></i>
+              </a>
+            </div>
           </div>
         </div>
 
         <!-- Contact Form -->
-        <form class="contact-form" id="contact-form">
-          <div class="form-group">
-            <input type="text" id="form-name" placeholder="Your Name" required>
-            <label for="form-name">Name</label>
-          </div>
-          <div class="form-group">
-            <input type="email" id="form-email" placeholder="Your Email" required>
-            <label for="form-email">Email</label>
-          </div>
-          <div class="form-group">
-            <input type="text" id="form-subject" placeholder="Subject">
-            <label for="form-subject">Subject</label>
-          </div>
-          <div class="form-group">
-            <textarea id="form-message" placeholder="Your Message" required></textarea>
-            <label for="form-message">Message</label>
-          </div>
-          <button type="submit" class="btn btn-primary btn-submit">
-            <i class="fa-solid fa-paper-plane"></i> Send Message
-          </button>
-          <div class="form-status" id="form-status"></div>
-        </form>
+        <div class="contact-form-panel">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="form-name" placeholder="Your Name" required>
+              <label for="form-name">Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="form-email" placeholder="Your Email" required>
+              <label for="form-email">Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="form-subject" placeholder="Subject">
+              <label for="form-subject">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea id="form-message" placeholder="Your Message" required></textarea>
+              <label for="form-message">Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
       </div>
     </div>
   </section>
