@@ -22,7 +22,7 @@ A modern, responsive **personal portfolio website** built with vanilla HTML, CSS
 |:---------:|:----------:|
 | 🌑 Sleek dark theme with glowing accents | ☀️ Clean light theme for readability |
 
-> Visit the **[Live Site →](https://sandeepkumarsha.github.io/Portfolio/)** to see it in action.
+> Visit the **[Live Site →](https://portfolio-sandeepkumarsha.vercel.app)** to see it in action.
 
 ---
 
